@@ -1,0 +1,269 @@
+/* 
+ * Reset Style
+ */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 14px;
+	font: inherit;
+	font-family: sans-serif;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+ * TheAwesomeCruzFamily Custom CSS
+ */
+
+@media all {
+
+	body {
+		background: #D0D0D0;
+		margin: 8px;
+		height: 100%;
+	}
+	
+	#headerMenu {
+		display: block;
+		background-color: #EFEFEF;
+		padding: 14px 0px;
+		border-bottom-left-radius: 16px;
+		border-bottom-right-radius: 16px;
+		margin-bottom: 14px;
+	}
+	
+	.headerMenuItem {
+		font-weight: bold;
+		padding: 6px;
+		background-color: #FF0000;
+		color: #FFFFFF;
+		border-top-left-radius: 8px;
+		border-top-right-radius: 8px;
+		border-bottom-left-radius: 8px;
+		border-bottom-right-radius: 8px;	
+	}
+	
+	#searchForm {
+		display: inline;
+	}
+	
+	#searchSubmit {
+		font-weight: bold;
+		font-size: 14px;
+		text-decoration: underline;
+		padding: 6px;
+		background-color: #FF0000;
+		color: #FFFFFF;
+		border: 0px;
+		border-top-left-radius: 8px;
+		border-top-right-radius: 8px;
+		border-bottom-left-radius: 8px;
+		border-bottom-right-radius: 8px;
+	}
+
+	hr {
+		margin: 8px 0px
+		clear: both;
+	}
+
+	/* Flexible Media  */
+	img, object, video, canvas {
+		max-width: 100% !important;
+		height: auto;
+		display: block;
+	}
+	
+	#doc_header, #doc_main, #doc_footer {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+	
+	#doc_header > h1 {
+		background-color: #EFEFEF;
+		border-top-left-radius: 16px;
+		border-top-right-radius: 16px;
+		border-bottom-left-radius: 0px;
+		border-bottom-right-radius: 0px;
+	}
+	
+	#doc_wrapper {
+		min-height: 100%;
+	}
+	
+	/* #doc_header {
+		padding-bottom: 20px;
+	} */
+	
+	#doc_main {
+		padding-bottom: 88px;
+	}
+	
+	#doc_footer {
+		clear: both;
+		position relative;
+		height: 60px;
+		margin-top: -88;
+	}
+	
+	#sidebar {
+		width: 180px;
+		text-align: left;
+		padding: 20px;
+		background: #EFEFEF;
+		border-top-left-radius: 16px;
+		border-top-right-radius: 16px;
+		border-bottom-left-radius: 16px;
+		border-bottom-right-radius: 16px;
+	}
+	
+	.post {
+		padding: 20px;
+		margin-bottom: 20px;
+		background: #EFEFEF;
+		border-top-left-radius: 16px;
+		border-top-right-radius: 16px;
+		border-bottom-left-radius: 16px;
+		border-bottom-right-radius: 16px;
+	}
+	
+	#postnavigation{
+		width: 180px;
+		text-align: left;
+		padding: 20px;
+		background: #EFEFEF;
+		border-top-left-radius: 16px;
+		border-top-right-radius: 16px;
+		border-bottom-left-radius: 16px;
+		border-bottom-right-radius: 16px;
+	}
+	
+	/* .post:nth-child(odd) {
+		background: #E0E0E0;
+	} */
+	
+	h1, h2, h3 {
+		color: #FF0000;
+		font-weight: bolder;
+		padding-top: 11px;
+		padding-bottom: 11px;
+	}
+		
+	h4, h5, h6 {
+		font-weight: bold;
+		padding-top: 8px;
+		padding-bottom: 8px;
+	}
+	
+	h1 {
+		font-size: 26px;
+	}
+	
+	h2 {
+		font-size: 24px;
+	}
+	
+	h3 {
+		font-size: 22px;
+	}
+	
+	h4 {
+		font-size: 20px;
+	}
+	
+	h5 {
+		font-size: 18px;
+	}
+	
+	h6 {
+		font-size: 16px;
+	}
+	
+	p {
+		padding-top: 7px;
+		padding-bottom: 7px;
+	}
+	
+	textarea {
+		width: 100%;
+		height: 75px;
+	}
+	
+	.postLink {
+		color: #000000;
+		text-decoration:none;
+		text-align: left;
+	}
+	
+	.center {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+}
+
+@media only screen and (max-width: 480px) {
+	.headerMenuItem, #searchSubmit {
+		margin: 2px 0px;
+		display: block;
+	}
+	
+	img, object, video, canvas {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media only screen and (min-width: 481px) {
+	.headerMenuItem {
+		margin: 2px 4px 2px 0px;
+		text-align: center;
+		display: inline;
+	}
+	
+	img, object, video, canvas {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	#doc_wrapper {
+		max-width: 992px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom 20px;
+	}
+	
+	#content {
+		text-align: left;
+		padding-bottom: 20px;
+	}
+	
+}
