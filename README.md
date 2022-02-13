@@ -3,5 +3,5 @@
 
 # git clone
 ```
-git clone git@github.com:AlanACruz/PHP-Prototypes.git ~/git/
+git clone git@github.com:AlanACruz/PHP-Prototypes.git ~/git/PHP-Prototypes
 ```
