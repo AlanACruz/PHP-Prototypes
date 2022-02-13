@@ -1,4 +1,5 @@
 {
   "name" : "alan-a-cruz/php-prototypes",
-  "description" : "just some prototypes"
+  "description" : "just some prototypes",
+  "license" : "MIT"
 }
