@@ -18,5 +18,5 @@ docker run \
   -v ~/git/PHP-Prototypes:/usr/src/myapp:Z \
   -w /usr/src/myapp \
   php:7.4-cli \
-  php your-script.php
+  php ~/git/PHP-Prototypes/your-script.php
 ```
